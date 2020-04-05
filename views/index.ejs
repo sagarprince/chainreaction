@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+</html>
+    <head>
+        <title>ChainReaction</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="shortcut icon" href="/../images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/../images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/../css/font-awesome.min.css">
+        <link rel="stylesheet" href="/../css/animate.css">
+        <link rel="stylesheet" href="/../css/material.min.css">
+        <link rel="stylesheet" href="/../css/app.css">               
+    </head>
+    <body data-game="<%= game %>" data-game-key="<%= key %>" data-base-url="<%= baseurl %>">
+        
+        <section class="selectnplayers__section">
+
+            <div class="controlinput">                
+
+                <button id="demo-menu-lower-left" class="selectnplayers mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                    <span class="text">Number of Players</span>
+                </button>
+
+                <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-left">
+                  <li class="mdl-menu__item menuitem" data-players="2"><label>2 Players</label></li>
+                  <li class="mdl-menu__item menuitem" data-players="3"><label>3 Players</label></li>          
+                  <li class="mdl-menu__item menuitem" data-players="4"><label>4 Players</label></li>
+                  <li class="mdl-menu__item menuitem" data-players="5"><label>5 Players</label></li>
+                  <li class="mdl-menu__item menuitem" data-players="6"><label>6 Players</label></li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section class="namecolor__section">
+
+            <div class="controlinput">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="urname">
+                    <label class="mdl-textfield__label" for="urname">Enter Your Name</label>
+                    <span class="mdl-textfield__error nonameerror">Error: please enter your name</span>
+                </div>
+
+                <button id="demo-colors-lower-left" class="selectcolor mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        <span class="text">Select Color</span>
+                </button>
+
+                <span class="mdl-textfield__error nocolorerror">Error: please select color</span>
+                <input type="hidden" name="color" value="" id="urcolor" />               
+
+                <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="demo-colors-lower-left">
+                <% for(var i=0; i<pcolors.length; i++) {
+                    color = pcolors[i].toUpperCase();
+                    %>
+                    <li class="mdl-menu__item coloritem" data-color="<%=pcolors[i]%>"><label><%=color%></label></li>
+                    <% 
+                } 
+                %>
+                </ul>
+
+                <button id="startgamebutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" data-game="<%= game %>">
+                  <%= buttonlabel %>
+                </button>
+            </div>
+
+        </section>
+
+        <section class="playgame__section">
+            <div class="joinedplayers">
+                <ul>
+                    
+                </ul>
+            </div>
+
+            <div class="controlinput">
+                <div class="joingameurlfield mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="joingameurl" readonly>      
+                    <label class="mdl-textfield__label" for="joingameurl">Share URL</label>          
+                </div>
+
+                <div class="gridwrap">
+                    <div class="gamecompleteoverlay"></div>
+                    <div class="gridinner">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="winner__section">
+            <div class="controlinput">
+                <img src="/../images/winner.jpg" />
+                <h3 class="winner"></h3>
+            </div>
+        </section>
+
+        
+
+        <script src="/socket.io/socket.io.js"></script>         
+        <script type="text/javascript" src="/../js/material.min.js"></script>                     
+        <script type="text/javascript" src="/../js/script.js"></script>        
+    </body>
+</html>

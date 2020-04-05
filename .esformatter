@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "esformatter-quotes",
+    "esformatter-use-strict",
+    "esformatter-braces"
+  ],
+  "quotes": {
+    "type": "single",
+    "avoidEscape": false
+  }
+}

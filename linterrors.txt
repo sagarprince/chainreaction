@@ -1,0 +1,332 @@
+
+> ChainReaction@1.0.0 lint C:\wamp64\www\chainreactiongame
+> eslint . --ext .js --cache
+
+
+C:\wamp64\www\chainreactiongame\app.js
+   47:3   error  'key' is not defined                         no-undef
+   48:50  error  'key' is not defined                         no-undef
+   90:8   error  Expected '===' and instead saw '=='          eqeqeq
+   90:26  error  Missing radix parameter                      radix
+   93:8   error  Expected '===' and instead saw '=='          eqeqeq
+   93:10  error  Missing radix parameter                      radix
+   93:46  error  Missing radix parameter                      radix
+   96:8   error  Expected '===' and instead saw '=='          eqeqeq
+   96:26  error  Missing radix parameter                      radix
+   99:8   error  Expected '===' and instead saw '=='          eqeqeq
+   99:10  error  Missing radix parameter                      radix
+   99:46  error  Missing radix parameter                      radix
+  111:2   error  'grid' is not defined                        no-undef
+  112:2   error  'grid' is not defined                        no-undef
+  112:9   error  'grid' is not defined                        no-undef
+  114:2   error  'matrix' is not defined                      no-undef
+  115:2   error  'sides' is not defined                       no-undef
+  117:2   error  Expected space or tab after '//' in comment  spaced-comment
+  120:39  error  Missing radix parameter                      radix
+  123:3   error  'playerdata' is not defined                  no-undef
+  128:46  error  'playerdata' is not defined                  no-undef
+  131:46  error  'playerdata' is not defined                  no-undef
+  134:40  error  'grid' is not defined                        no-undef
+  134:54  error  'matrix' is not defined                      no-undef
+  134:69  error  'sides' is not defined                       no-undef
+  139:4   error  'groomlen' is not defined                    no-undef
+  141:4   error  'playerindex' is not defined                 no-undef
+  141:18  error  Missing radix parameter                      radix
+  142:4   error  'playerdata' is not defined                  no-undef
+  144:7   error  'playerindex' is not defined                 no-undef
+  145:67  error  Expected '===' and instead saw '=='          eqeqeq
+  147:42  error  Missing radix parameter                      radix
+  151:49  error  'playerdata' is not defined                  no-undef
+  154:49  error  'playerdata' is not defined                  no-undef
+  157:43  error  'grid' is not defined                        no-undef
+  157:57  error  'matrix' is not defined                      no-undef
+  157:72  error  'sides' is not defined                       no-undef
+  178:3   error  'moveindex' is not defined                   no-undef
+  179:3   error  'groom' is not defined                       no-undef
+  181:3   error  'color' is not defined                       no-undef
+  182:3   error  'nexturnname' is not defined                 no-undef
+  183:3   error  'nexturncolor' is not defined                no-undef
+  185:15  error  'groom' is not defined                       no-undef
+  187:11  error  'color' is not defined                       no-undef
+  188:17  error  'nexturnname' is not defined                 no-undef
+  189:18  error  'nexturncolor' is not defined                no-undef
+  190:15  error  'moveindex' is not defined                   no-undef
+  191:11  error  'groom' is not defined                       no-undef
+  195:2   error  Expected space or tab after '//' in comment  spaced-comment
+  197:3   error  'groom' is not defined                       no-undef
+  198:57  error  'groom' is not defined                       no-undef
+  199:69  error  'groom' is not defined                       no-undef
+  209:7   error  Expected '!==' and instead saw '!='          eqeqeq
+  219:31  error  Expected '===' and instead saw '=='          eqeqeq
+  230:40  error  Expected '===' and instead saw '=='          eqeqeq
+  240:17  error  Strings must use singlequote                 quotes
+  242:5   error  Expected { after 'for' condition             curly
+
+C:\wamp64\www\chainreactiongame\public\js\script.js
+    2:1    error  Use the global form of 'use strict'                                                                            strict
+    2:1    error  'io' is not defined                                                                                            no-undef
+    2:6    error  'io' is not defined                                                                                            no-undef
+   37:37   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+   56:23   error  'io' is not defined                                                                                            no-undef
+   57:38   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+   61:25   error  'li' is not defined                                                                                            no-undef
+   63:26   error  'pname' is not defined                                                                                         no-undef
+   64:26   error  'pcolor' is not defined                                                                                        no-undef
+   65:42   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+   65:45   error  'pname' is not defined                                                                                         no-undef
+   65:67   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+   65:70   error  'pcolor' is not defined                                                                                        no-undef
+   70:26   error  'li' is not defined                                                                                            no-undef
+   70:127  error  'pcolor' is not defined                                                                                        no-undef
+   70:161  error  'pname' is not defined                                                                                         no-undef
+   72:81   error  'li' is not defined                                                                                            no-undef
+   76:23   error  'io' is not defined                                                                                            no-undef
+   78:24   error  'color' is not defined                                                                                         no-undef
+   79:24   error  'groom' is not defined                                                                                         no-undef
+   80:24   error  'moveindex' is not defined                                                                                     no-undef
+   81:24   error  'nexturnname' is not defined                                                                                   no-undef
+   82:24   error  'nexturncolor' is not defined                                                                                  no-undef
+   84:24   error  'cell' is not defined                                                                                          no-undef
+   84:74   error  'moveindex' is not defined                                                                                     no-undef
+   85:33   error  'cell' is not defined                                                                                          no-undef
+   85:39   error  'color' is not defined                                                                                         no-undef
+   91:29   error  'nexturnname' is not defined                                                                                   no-undef
+   91:41   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+   91:59   error  'nexturncolor' is not defined                                                                                  no-undef
+   91:72   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+   94:45   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+   95:44   error  'nexturnname' is not defined                                                                                   no-undef
+   95:57   error  'nexturncolor' is not defined                                                                                  no-undef
+  102:27   error  'self' is defined but never used                                                                               no-unused-vars
+  105:64   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  105:113  error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  122:24   error  'index' is not defined                                                                                         no-undef
+  123:24   error  'rowindex' is not defined                                                                                      no-undef
+  124:24   error  'colindex' is not defined                                                                                      no-undef
+  125:39   error  'index' is not defined                                                                                         no-undef
+  126:42   error  'rowindex' is not defined                                                                                      no-undef
+  127:42   error  'colindex' is not defined                                                                                      no-undef
+  154:24   error  'dots_count' is not defined                                                                                    no-undef
+  155:28   error  'dots_count' is not defined                                                                                    no-undef
+  168:43   error  Missing radix parameter                                                                                        radix
+  175:23   error  'dots_count' is not defined                                                                                    no-undef
+  176:27   error  'dots_count' is not defined                                                                                    no-undef
+  177:24   error  'chLIndex' is not defined                                                                                      no-undef
+  177:38   error  'chRIndex' is not defined                                                                                      no-undef
+  179:24   error  'index' is not defined                                                                                         no-undef
+  180:24   error  'rowIndex' is not defined                                                                                      no-undef
+  181:24   error  'colIndex' is not defined                                                                                      no-undef
+  182:24   error  'pturn' is not defined                                                                                         no-undef
+  184:24   error  'trow_index' is not defined                                                                                    no-undef
+  184:37   error  Missing radix parameter                                                                                        radix
+  184:46   error  'rowIndex' is not defined                                                                                      no-undef
+  185:24   error  'brow_index' is not defined                                                                                    no-undef
+  185:37   error  Missing radix parameter                                                                                        radix
+  185:46   error  'rowIndex' is not defined                                                                                      no-undef
+  187:24   error  't_index' is not defined                                                                                       no-undef
+  187:35   error  'trow_index' is not defined                                                                                    no-undef
+  187:46   error  Expected '!==' and instead saw '!='                                                                            eqeqeq
+  187:67   error  'trow_index' is not defined                                                                                    no-undef
+  187:79   error  'colIndex' is not defined                                                                                      no-undef
+  188:24   error  'b_index' is not defined                                                                                       no-undef
+  188:35   error  'brow_index' is not defined                                                                                    no-undef
+  188:46   error  Expected '!==' and instead saw '!='                                                                            eqeqeq
+  188:55   error  'brow_index' is not defined                                                                                    no-undef
+  188:98   error  'brow_index' is not defined                                                                                    no-undef
+  188:110  error  'colIndex' is not defined                                                                                      no-undef
+  190:24   error  'l_index' is not defined                                                                                       no-undef
+  190:34   error  Missing radix parameter                                                                                        radix
+  190:43   error  'index' is not defined                                                                                         no-undef
+  191:24   error  'r_index' is not defined                                                                                       no-undef
+  191:34   error  Missing radix parameter                                                                                        radix
+  191:43   error  'index' is not defined                                                                                         no-undef
+  193:28   error  Missing radix parameter                                                                                        radix
+  193:37   error  'colIndex' is not defined                                                                                      no-undef
+  194:25   error  'cindex' is not defined                                                                                        no-undef
+  194:34   error  Missing radix parameter                                                                                        radix
+  194:43   error  'colIndex' is not defined                                                                                      no-undef
+  195:25   error  'chLIndex' is not defined                                                                                      no-undef
+  195:48   error  'rowIndex' is not defined                                                                                      no-undef
+  195:58   error  'cindex' is not defined                                                                                        no-undef
+  197:28   error  Missing radix parameter                                                                                        radix
+  197:37   error  'colIndex' is not defined                                                                                      no-undef
+  197:54   error  Missing radix parameter                                                                                        radix
+  198:25   error  'cindex' is not defined                                                                                        no-undef
+  198:34   error  Missing radix parameter                                                                                        radix
+  198:43   error  'colIndex' is not defined                                                                                      no-undef
+  199:25   error  'chRIndex' is not defined                                                                                      no-undef
+  199:48   error  'rowIndex' is not defined                                                                                      no-undef
+  199:58   error  'cindex' is not defined                                                                                        no-undef
+  202:24   error  'l_index' is not defined                                                                                       no-undef
+  202:35   error  'chLIndex' is not defined                                                                                      no-undef
+  202:48   error  'l_index' is not defined                                                                                       no-undef
+  202:59   error  'l_index' is not defined                                                                                       no-undef
+  203:24   error  'r_index' is not defined                                                                                       no-undef
+  203:35   error  'chRIndex' is not defined                                                                                      no-undef
+  203:48   error  'r_index' is not defined                                                                                       no-undef
+  203:59   error  'r_index' is not defined                                                                                       no-undef
+  205:24   error  'topEl' is not defined                                                                                         no-undef
+  205:33   error  't_index' is not defined                                                                                       no-undef
+  205:92   error  't_index' is not defined                                                                                       no-undef
+  206:24   error  'bottomEl' is not defined                                                                                      no-undef
+  206:36   error  'b_index' is not defined                                                                                       no-undef
+  206:95   error  'b_index' is not defined                                                                                       no-undef
+  208:24   error  'leftEl' is not defined                                                                                        no-undef
+  208:34   error  'l_index' is not defined                                                                                       no-undef
+  208:93   error  'l_index' is not defined                                                                                       no-undef
+  209:24   error  'rightEl' is not defined                                                                                       no-undef
+  209:35   error  'r_index' is not defined                                                                                       no-undef
+  209:94   error  'r_index' is not defined                                                                                       no-undef
+  211:24   error  'topLeftCorner' is not defined                                                                                 no-undef
+  212:24   error  'bottomLeftCorner' is not defined                                                                              no-undef
+  213:24   error  'topRightCorner' is not defined                                                                                no-undef
+  214:24   error  'bottomRightCorner' is not defined                                                                             no-undef
+  216:24   error  'explodeCount' is not defined                                                                                  no-undef
+  217:28   error  'topLeftCorner' is not defined                                                                                 no-undef
+  217:42   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  217:45   error  'index' is not defined                                                                                         no-undef
+  217:54   error  'bottomLeftCorner' is not defined                                                                              no-undef
+  217:71   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  217:74   error  'index' is not defined                                                                                         no-undef
+  217:83   error  'topRightCorner' is not defined                                                                                no-undef
+  217:98   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  217:101  error  'index' is not defined                                                                                         no-undef
+  217:110  error  'bottomRightCorner' is not defined                                                                             no-undef
+  217:128  error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  217:131  error  'index' is not defined                                                                                         no-undef
+  218:25   error  'explodeCount' is not defined                                                                                  no-undef
+  221:47   error  Missing radix parameter                                                                                        radix
+  221:56   error  'index' is not defined                                                                                         no-undef
+  222:25   error  'explodeCount' is not defined                                                                                  no-undef
+  225:28   error  'dots_count' is not defined                                                                                    no-undef
+  225:42   error  'explodeCount' is not defined                                                                                  no-undef
+  230:29   error  'topEl' is not defined                                                                                         no-undef
+  230:35   error  Expected '!==' and instead saw '!='                                                                            eqeqeq
+  231:35   error  'topEl' is not defined                                                                                         no-undef
+  231:42   error  'pturn' is not defined                                                                                         no-undef
+  233:29   error  'bottomEl' is not defined                                                                                      no-undef
+  233:38   error  Expected '!==' and instead saw '!='                                                                            eqeqeq
+  234:35   error  'bottomEl' is not defined                                                                                      no-undef
+  234:45   error  'pturn' is not defined                                                                                         no-undef
+  236:29   error  'leftEl' is not defined                                                                                        no-undef
+  236:36   error  Expected '!==' and instead saw '!='                                                                            eqeqeq
+  236:47   error  'l_index' is not defined                                                                                       no-undef
+  237:35   error  'leftEl' is not defined                                                                                        no-undef
+  237:43   error  'pturn' is not defined                                                                                         no-undef
+  239:29   error  'rightEl' is not defined                                                                                       no-undef
+  239:37   error  Expected '!==' and instead saw '!='                                                                            eqeqeq
+  239:48   error  'r_index' is not defined                                                                                       no-undef
+  240:35   error  'rightEl' is not defined                                                                                       no-undef
+  240:44   error  'pturn' is not defined                                                                                         no-undef
+  243:45   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  244:49   error  Closing curly brace should be on the same line as opening curly brace or on the line after the previous block  brace-style
+  244:49   error  Statement inside of curly braces should be on next line                                                        brace-style
+  253:24   error  'box' is not defined                                                                                           no-undef
+  254:28   error  'box' is not defined                                                                                           no-undef
+  254:43   error  Expected '!==' and instead saw '!='                                                                            eqeqeq
+  255:25   error  'player' is not defined                                                                                        no-undef
+  255:34   error  'box' is not defined                                                                                           no-undef
+  256:25   error  'count' is not defined                                                                                         no-undef
+  256:42   error  'player' is not defined                                                                                        no-undef
+  256:61   error  'player' is not defined                                                                                        no-undef
+  257:33   error  'player' is not defined                                                                                        no-undef
+  257:43   error  'count' is not defined                                                                                         no-undef
+  262:23   error  'winPlayer' is not defined                                                                                     no-undef
+  265:24   error  'pname' is not defined                                                                                         no-undef
+  266:24   error  'pcolor' is not defined                                                                                        no-undef
+  267:36   error  'pcolor' is not defined                                                                                        no-undef
+  268:25   error  'winPlayer' is not defined                                                                                     no-undef
+  273:27   error  'winPlayer' is not defined                                                                                     no-undef
+  273:44   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  276:24   error  'winname' is not defined                                                                                       no-undef
+  276:34   error  'winPlayer' is not defined                                                                                     no-undef
+  277:24   error  'wincolor' is not defined                                                                                      no-undef
+  277:35   error  'winPlayer' is not defined                                                                                     no-undef
+  278:24   error  'winnername' is not defined                                                                                    no-undef
+  278:37   error  'winPlayer' is not defined                                                                                     no-undef
+  283:29   error  'winname' is not defined                                                                                       no-undef
+  283:37   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  283:55   error  'wincolor' is not defined                                                                                      no-undef
+  283:64   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  284:26   error  'winnername' is not defined                                                                                    no-undef
+  286:25   error  'winnername' is not defined                                                                                    no-undef
+  286:38   error  'winnername' is not defined                                                                                    no-undef
+  289:66   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  289:69   error  'winname' is not defined                                                                                       no-undef
+  289:111  error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  289:114  error  'wincolor' is not defined                                                                                      no-undef
+  290:42   error  'winnername' is not defined                                                                                    no-undef
+  297:39   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  298:26   error  'io' is not defined                                                                                            no-undef
+  311:64   error  'e' is defined but never used                                                                                  no-unused-vars
+  312:25   error  'playercount' is not defined                                                                                   no-undef
+  313:25   error  'label' is not defined                                                                                         no-undef
+  314:85   error  'label' is not defined                                                                                         no-undef
+  315:62   error  'playercount' is not defined                                                                                   no-undef
+  326:64   error  'e' is defined but never used                                                                                  no-unused-vars
+  327:25   error  'color' is not defined                                                                                         no-undef
+  328:25   error  'label' is not defined                                                                                         no-undef
+  329:82   error  'label' is not defined                                                                                         no-undef
+  330:88   error  'color' is not defined                                                                                         no-undef
+  332:57   error  'color' is not defined                                                                                         no-undef
+  333:68   error  'color' is not defined                                                                                         no-undef
+  338:101  error  'e' is defined but never used                                                                                  no-unused-vars
+  342:24   error  'urname' is not defined                                                                                        no-undef
+  343:24   error  'urname' is not defined                                                                                        no-undef
+  343:33   error  'urname' is not defined                                                                                        no-undef
+  344:24   error  'urname' is not defined                                                                                        no-undef
+  344:33   error  'urname' is not defined                                                                                        no-undef
+  346:24   error  'urcolor' is not defined                                                                                       no-undef
+  348:28   error  'urname' is not defined                                                                                        no-undef
+  348:35   error  Expected '!==' and instead saw '!='                                                                            eqeqeq
+  348:44   error  'urcolor' is not defined                                                                                       no-undef
+  348:52   error  Expected '!==' and instead saw '!='                                                                            eqeqeq
+  349:56   error  'urname' is not defined                                                                                        no-undef
+  350:39   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  351:26   error  'playerscount' is not defined                                                                                  no-undef
+  352:26   error  'io' is not defined                                                                                            no-undef
+  352:76   error  'urname' is not defined                                                                                        no-undef
+  352:93   error  'urcolor' is not defined                                                                                       no-undef
+  352:116  error  'playerscount' is not defined                                                                                  no-undef
+  364:26   error  'io' is not defined                                                                                            no-undef
+  364:74   error  'urname' is not defined                                                                                        no-undef
+  364:91   error  'urcolor' is not defined                                                                                       no-undef
+  365:41   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  375:28   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  377:28   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  379:28   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  387:29   error  'urname' is not defined                                                                                        no-undef
+  387:36   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  390:29   error  'urcolor' is not defined                                                                                       no-undef
+  390:37   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  401:67   error  'e' is defined but never used                                                                                  no-unused-vars
+  410:64   error  'e' is defined but never used                                                                                  no-unused-vars
+  418:23   error  'cellplayer' is not defined                                                                                    no-undef
+  419:23   error  'urcolor' is not defined                                                                                       no-undef
+  420:39   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  420:52   error  'cellplayer' is not defined                                                                                    no-undef
+  420:63   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  420:74   error  'cellplayer' is not defined                                                                                    no-undef
+  420:85   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+  420:88   error  'urcolor' is not defined                                                                                       no-undef
+  421:24   error  'moveindex' is not defined                                                                                     no-undef
+  423:39   error  'urcolor' is not defined                                                                                       no-undef
+  424:24   error  'nexturnindex' is not defined                                                                                  no-undef
+  425:24   error  'nexturnindex' is not defined                                                                                  no-undef
+  425:40   error  'nexturnindex' is not defined                                                                                  no-undef
+  425:86   error  'nexturnindex' is not defined                                                                                  no-undef
+  426:24   error  'nexturnname' is not defined                                                                                   no-undef
+  426:59   error  'nexturnindex' is not defined                                                                                  no-undef
+  427:24   error  'nexturncolor' is not defined                                                                                  no-undef
+  427:60   error  'nexturnindex' is not defined                                                                                  no-undef
+  428:24   error  'io' is not defined                                                                                            no-undef
+  428:70   error  'moveindex' is not defined                                                                                     no-undef
+  428:100  error  'urcolor' is not defined                                                                                       no-undef
+  428:122  error  'nexturnname' is not defined                                                                                   no-undef
+  428:149  error  'nexturncolor' is not defined                                                                                  no-undef
+  431:42   error  'nexturnname' is not defined                                                                                   no-undef
+  431:55   error  'nexturncolor' is not defined                                                                                  no-undef
+  445:46   error  Expected '===' and instead saw '=='                                                                            eqeqeq
+
+✖ 321 problems (321 errors, 0 warnings)
+
