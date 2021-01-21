@@ -14,7 +14,7 @@
     "express-load": "^1.1.15",
     "express-session": "^1.11.3",
     "serve-favicon": "^2.3.0",
-    "socket.io": "^1.7.4",
+    "socket.io": "^2.4.0",
     "supervisor": "^0.7.1"
   },
   "devDependencies": {
